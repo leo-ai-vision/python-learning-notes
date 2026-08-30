@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Datasets, model checkpoints and experiment outputs
+data/
+dataset/
+datasets/
+flower_data/
+*.pt
+*.pth
+*.ckpt
+runs/
+outputs/
+logs/
+
+# Local environment files
+.env.*
+!.env.example
