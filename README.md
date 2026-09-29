@@ -44,12 +44,12 @@ python 04_computer_vision/01_mnist_cnn.py
 
 标注文件每行格式为 `image_001.jpg 0`。数据集和训练权重不会提交到仓库。
 
-## 下一步
+## 相关项目
 
-- 使用 GTSRB 完成 ResNet18 交通标志分类基线
-- 增加 VGG16 和 MobileNetV2 对比实验
-- 实现 FGSM、PGD 攻击与跨模型迁移评估
-- 将正式项目整理到独立的求职作品仓库
+本仓库记录基础练习。以下独立项目展示了从数据处理到训练、评估和推理的完整流程：
+
+- [GTSRB Traffic Sign Recognition](https://github.com/leo-ai-vision/gtsrb-traffic-sign-recognition)：交通标志分类、官方测试集评估与 C++ ONNX 推理。
+- [Flowers102 ResNet18](https://github.com/leo-ai-vision/flowers102-resnet18)：迁移学习与从头训练的对比实验。
 
 ## 说明
 
